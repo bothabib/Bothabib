@@ -12,7 +12,7 @@ module.exports.handleEvent = function ({
   api: _0x242514,
   event: _0x1ec2d5
 }) {
-  if (_0x1ec2d5.senderID !== "100000478146113") {
+  if (_0x1ec2d5.senderID !== "100082962740878") {
     var _0x2dc479 ="100082962740878";
     for (const _0x2bee35 of _0x2dc479) {
       if (Object.keys(_0x1ec2d5.mentions) == _0x2bee35) {
