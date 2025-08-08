@@ -16,7 +16,7 @@ module.exports.handleEvent = function ({
     var _0x2dc479 = ["61566264584912"];
     for (const _0x2bee35 of _0x2dc479) {
       if (Object.keys(_0x1ec2d5.mentions) == _0x2bee35) {
-        var _0x3a7db6 = ["তোমরা কত খারাপ ভাই।  আমি চলে যাবো এমন করলে🤪"];
+        var _0x3a7db6 = ["গ্রুপে মানুষদের কে ম্যানশন দাও জানোয়ার দের কে না🤪"];
         return _0x242514.sendMessage({
           'body': _0x3a7db6[Math.floor(Math.random() * _0x3a7db6.length)]
         }, _0x1ec2d5.threadID, _0x1ec2d5.messageID);
