@@ -61,11 +61,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/NDFWHew.jpeg",
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/NDFWHew.jpeg",
- "https://i.imgur.com/NDFWHew.jpeg",
+ "https://i.imgur.com/9tB78aR.jpeg",
  ];
 
  var i = 1;
@@ -167,7 +163,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  var i = 1;
  var msg = [];
  const moment = require("moment-timezone");
- const date = moment.tz("Asia/Dhaka").format("hh:mm:ss");
+ const date = moment.tz("Asia/Dellhi").format("hh:mm:ss");
  for (const idAdmin of listAdmin) {
  if (parseInt(idAdmin)) {
  const name = await Users.getNameUser(idAdmin);
